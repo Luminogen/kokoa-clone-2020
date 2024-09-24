@@ -1,0 +1,31 @@
+@import "reset.css";
+@import "variables.css";
+
+/*Components*/
+@import "components/status-bar.css";
+
+/*Screens*/
+@import "screens/login.css";
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/*21 1.21
+
+- HTML에 CSS를 작성하고 싶을 때, "link:css"라 하고 엔터를 치면 자동 완성 된다.
+- font-family를 이용하여 서체를 변경할 수 있다.
+- Google fonts 웹사이트에서 원하는 폰트를 가져다 쓰면 된다.
+- 사용하지 않는 스타일까지 모두 선택하면, 하나의 스타일을 선택한 것보다 불러오는데 시간이 오래 걸릴 수 있다. → 사용하지 않을 스타일을 추려내는 것도 중요하다.
+- css hack(기술) → 레시피와 같은 것
+- 아이콘의 크기를 키워줄려면 
+
+#login-form :nth-child(3) {
+  border: solid;
+  border-width: 0.5px;
+}
+
+#login-form :nth-child(4) {
+  border: solid;
+  border-width: 0.5px;
+*/
